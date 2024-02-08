@@ -12,18 +12,18 @@
 
         <script>
             function toggleMenu() {
-            var x = document.getElementById("navbar");
-            if (x.style.display === "none") {
-            x.style.display = "block";
-            } else {
-            x.style.display = "none";
+                var x = document.getElementById("navbar");
+                if (x.style.display === "none") {
+                x.style.display = "block";
+                } else {
+                x.style.display = "none";
+                }
             }
-    }
         </script>
     </head>
     <body>
-        <button id="signup" class="button">Sign up</button>
-        <button id="login" class="button">Login</button>
+        <button id="signup">Sign up</button>
+        <button id="login">Login</button>
         <nav>
             <a class="icon--menu">
                 <img src="../images/menu.svg" alt="test"  onclick="toggleMenu()">                
